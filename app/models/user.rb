@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
     has_secure_password
-    belongs_to :orchestra
+    has_many :clients
 
 end
